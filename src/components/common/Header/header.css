@@ -1,0 +1,122 @@
+.hidden {
+  display: none;
+}
+
+.search-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  margin-left: 8px;
+  color: #333;
+  font-size: 18px;
+}
+
+.dark-mode-btn {
+  cursor: pointer;
+  padding: 8px;
+}
+
+.dark-mode-btn i {
+  font-size: 20px;
+}
+.insta-container {
+  box-shadow: 0 8px 8px var(--boxShadow);
+  position: sticky;
+  top: 0;
+  background-color: var(--white);
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.insta-logo {
+  font-family: "Style Script", cursive;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  color: var(---secondary);
+}
+
+@media (prefers-color-scheme: dark) {
+  .insta-logo {
+    color: var(---secondary-dark);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .insta-container {
+    flex-wrap: wrap;
+    padding: 16px;
+  }
+
+  .menu-container {
+    margin-top: 8px;
+  }
+
+  .search-bar {
+    flex: 0;
+    margin-top: 8px;
+  }
+}
+
+/* Sidebar Menu Styles */
+.menu-container {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup h2 {
+  color: white;
+  background-color: #333;
+  padding: 10px;
+}
+
+.popup button {
+  margin-top: 10px;
+}
+
+.search-icon {
+  cursor: pointer;
+  padding: 8px;
+}
+
+.search-icon i {
+  font-size: 20px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.search-bar input {
+  padding: 6px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+}
+
+

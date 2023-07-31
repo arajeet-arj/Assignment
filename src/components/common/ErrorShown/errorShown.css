@@ -1,0 +1,17 @@
+.es01Container {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-image {
+  height: 280px;
+}
+
+@media only screen and (max-width: 768px) {
+  .error-image {
+    height: 180px;
+  }
+}

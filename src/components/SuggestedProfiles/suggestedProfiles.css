@@ -1,0 +1,74 @@
+.sp01Container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  box-shadow: 0 1px 10px 0 var(--boxShadow);
+  padding: 16px;
+  margin-top: 12px;
+  height: max-content;
+  border-radius: 12px;
+}
+
+.sp01TitleContainer {
+  text-align: center; /* Change this to "text-align: left;" for left alignment */
+  margin-bottom: 12px;
+}
+
+.sp01Title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(---secondary);
+}
+
+.sp01ProfileList {
+  width: 100%;
+}
+
+.sp01ProfileCard {
+  display: flex;
+  width: 100%;
+  margin: 24px 0px;
+}
+
+.sp01ProfileImage {
+  height: 45px;
+  border-radius: 15px;
+}
+
+.sp01ProfileInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6px;
+}
+
+.sp01Username {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(---secondary);
+}
+
+.sp01UserStats {
+  display: flex;
+  flex-wrap: wrap; /* Wrap the user stats onto the next line if necessary */
+  max-width: 150px; /* Set a maximum width for the user stats to prevent overflow */
+}
+
+.sp01UserStatItem {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: var(---subtext);
+  margin-right: 16px;
+}
+
+.sp01UserStatItem i {
+  margin-right: 6px;
+}
+
+/* Media Query */
+@media only screen and (max-width: 768px) {
+  .sp01Container {
+    display: none;
+  }
+}

@@ -1,0 +1,23 @@
+.dark-theme {
+  background-color: rgb(87, 75, 75);
+  box-shadow: 0 1px 1px white;
+  color: white;
+
+  .hdr01Container {
+    color: white;
+    box-shadow: 0 1px 1px rgb(67, 62, 62);
+  }
+
+  .sp01ProfileCard {
+    color: white;
+    box-shadow: 0 2px 4px rgba(182, 172, 172, 0.195);
+  }
+  .insta-container {
+    background-color: black;
+    box-shadow: 0 2px 4px rgba(182, 172, 172, 0.195);
+  }
+}
+
+.light-theme {
+  background-color: white;
+}
