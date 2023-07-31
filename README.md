@@ -33,7 +33,8 @@ To enhance user customization, the app includes a dark mode feature, allowing us
 4. Access the app in your web browser at `http://localhost:3000`.
 
 ## Screenshots
-[Insert screenshots here]
+[error.png]
+
 
 ## Flow Chart
 [Insert flow chart here]
