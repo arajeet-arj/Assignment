@@ -32,6 +32,22 @@ To enhance user customization, the app includes a dark mode feature, allowing us
 3. Run the development server with `npm start`.
 4. Access the app in your web browser at `http://localhost:3000`.
 
+## Folder Structure
+
+- **public**: Contains the index.html file with necessary libraries.
+- **src**: Main source folder.
+  - **assets**: Images and media resources.
+  - **common**: Reusable components.
+    - **ErrorShown**: Displays error messages.
+    - **Header**: Navigation header and search bar.
+    - **Loader**: Loading animation for images.
+    - **styles**: Common CSS classes.
+    - **GridView** & **ListView**: View options for photos.
+    - **ProfileInfo**, **ProfilePhotos**, and **SuggestedProfiles**: Profile-related components.
+  - **constants**: Constants used in the application.
+  - **pages**: Different pages of the app.
+  - **store**: Redux actions, reducers, and the store for state management.
+
 ## Screenshots
 [Insert screenshots here]
 
