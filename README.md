@@ -8,12 +8,13 @@ The app incorporates state-of-the-art technologies, including React.js and Redux
 To enhance user customization, the app includes a dark mode feature, allowing users to switch between light and dark themes based on their preferences. Additionally, API response caching is implemented to reduce unnecessary API calls and improve app performance.
 
 ## Features
-- Collect and display photos from the Unsplash API.
+- Collect and display photos and profiles  from the Unsplash API.
 - Device-optimized layout and responsive design for various screen sizes.
 - Dynamic routing configuration for smooth navigation.
 - State management using Redux for a centralized and predictable state.
 - API response caching for improved performance.
 - Dark mode feature for enhanced user customization.
+- follow / unfollow option 
 
 ## Technologies Used
 - JavaScript (ES6+)
@@ -48,11 +49,20 @@ To enhance user customization, the app includes a dark mode feature, allowing us
   - **pages**: Different pages of the app.
   - **store**: Redux actions, reducers, and the store for state management.
 
-## Screenshots
-[Insert screenshots here]
-
 ## Flow Chart
-[Insert flow chart here]
+![WhatsApp Image 2023-07-31 at 18 19 02](https://github.com/arajeet-arj/Assignment/assets/103362957/82bf5460-b73a-45e8-b900-03b3e968ba28)
+
+## Screenshots
+
+- Two modes of operation with dark-mode/ light-mode features infinite scrolling  
+![1](https://github.com/arajeet-arj/Assignment/assets/103362957/715b5e50-5712-440d-9333-e2195472ff25)
+
+- Offers two types of grid viewing in profile photos  
+![3](https://github.com/arajeet-arj/Assignment/assets/103362957/845e52bc-a874-4796-9ffa-e8a07ac8f538)
+
+ - Adjustible according to screensize 
+![3](https://github.com/arajeet-arj/Assignment/assets/103362957/a808014b-cbdb-4bf0-8310-4279d320f8bb)
+
 
 ## Conclusion
 The Instagram-like Scrollable App showcases a seamless user experience, efficient state management, and responsive design. It leverages Redux for state management, optimizes API calls with caching, and includes a dark mode feature for user customization.
