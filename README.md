@@ -33,11 +33,6 @@ To enhance user customization, the app includes a dark mode feature, allowing us
 3. Run the development server with `npm start`.
 4. Access the app in your web browser at `http://localhost:3000`.
 
-<<<<<<< HEAD
-## Screenshots
-[error.png]
-
-=======
 ## Folder Structure
 
 - **public**: Contains the index.html file with necessary libraries.
