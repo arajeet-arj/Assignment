@@ -17,6 +17,7 @@ To enhance user customization, the app includes a dark mode feature, allowing us
 - follow / unfollow option 
 
 ## Technologies Used
+- Next.js
 - JavaScript (ES6+)
 - React.js
 - Redux (Redux Toolkit for state management)
@@ -48,7 +49,7 @@ To enhance user customization, the app includes a dark mode feature, allowing us
   - **constants**: Constants used in the application.
   - **pages**: Different pages of the app.
   - **store**: Redux actions, reducers, and the store for state management.
->>>>>>> 2c09bc651bdbf68a979b1474edabd7cedad9ade6
+
 
 ## Flow Chart
 ![WhatsApp Image 2023-07-31 at 18 19 02](https://github.com/arajeet-arj/Assignment/assets/103362957/82bf5460-b73a-45e8-b900-03b3e968ba28)
@@ -67,5 +68,3 @@ To enhance user customization, the app includes a dark mode feature, allowing us
 
 ## Conclusion
 The Instagram-like Scrollable App showcases a seamless user experience, efficient state management, and responsive design. It leverages Redux for state management, optimizes API calls with caching, and includes a dark mode feature for user customization.
-
-The overview section provides an introduction to the project, explaining its purpose and key features. The documentation then proceeds with detailed information about the application's architecture, folder structure, and implementation details. The inclusion of screenshots and a flow chart further enhances the understanding of the app's design and functionality.
